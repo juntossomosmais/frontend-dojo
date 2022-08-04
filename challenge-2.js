@@ -1,9 +1,17 @@
 // Desafio 2: Palindrome
 
 function isPalindrome(word) {
-  // Write your code here
+  let backwords = word.split('', word.length)
+  let newWorld = word.split('', word.length)
+
+  backwords.reverse()
+
+  return newWorld.every((el, index) => {
+    
+    return el === backwords[index] ? true : false
+  })
 }
 
-console.log(isPalindrome("civic")); // true
-console.log(isPalindrome("race a car")); // false
-console.log(isPalindrome("A man, a plan, a canal: Panama")); // true
+console.log(isPalindrome("civic")) // true
+console.log(isPalindrome("race a car")) // false
+console.log(isPalindrome("ovo")) // true
