@@ -22,6 +22,19 @@ node challenge-1.js
 
 ### Desafio 1
 
+Neste problema, você deverá exibir uma lista de 1 a 15, com as seguintes exceções:
+
+Números divisíveis por 3 deve aparecer como 'Fizz' ao invés do número;
+Números divisíveis por 5 devem aparecer como 'Buzz' ao invés do número;
+Números divisíveis por 3 e 5 devem aparecer como 'FizzBuzz' ao invés do número'.
+
 ### Desafio 2
 
+Dada a string, verifique se é um palíndromo.
+
 ### Desafio 3
+
+Contar o número de duplicatas.
+
+Escreva uma função que retornará a contagem de caracteres alfabéticos distintos que não diferenciam maiúsculas de minúsculas e dígitos numéricos que ocorrem mais de uma vez na string de entrada. A string de entrada pode conter apenas letras (maiúsculas e minúsculas) e dígitos numéricos.
+
