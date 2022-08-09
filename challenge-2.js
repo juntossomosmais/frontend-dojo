@@ -3,9 +3,9 @@
 function isPalindrome(word) {
   // Write your code here
   let cleanWord = word.toLowerCase().replace(/[^\w]|s+/g, '')
-	let backwords = cleanWord.split('').reverse().join().replace(/,/g, '')
+  let backwords = cleanWord.split('').reverse().join().replace(/,/g, '')
 
-	return cleanWord === backwords
+  return cleanWord === backwords
   
 }
 
