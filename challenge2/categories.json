@@ -1,5 +1,15 @@
 {
-	"categories": [
-		// SUA ESTRUTURA DE DADOS AQUI
-	]
+  "categories": [
+    {
+      "name": "Hardware",
+      "subcategories": [
+        { "name": "Placa de Vídeo" },
+        { "name": "Placa" }
+      ]
+    },
+    {
+      "name": "Software",
+      "subcategories": [{ "name": "Vídeo" }, { "name": "Placa o" }]
+    }
+  ]
 }
